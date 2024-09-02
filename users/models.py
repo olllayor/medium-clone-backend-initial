@@ -1,6 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 import os
+from django_resized import ResizedImageField
+
 # Create your models here.
 
 def file_upload(instance, filename):
@@ -12,7 +14,8 @@ def file_upload(instance, filename):
 class CustomUser(AbstractUser):
     avatar = models.ImageField(upload_to=file_upload, blank=True)
     middle_name = models.CharField(max_length=30, blank=True, null=True)
-    
+    avatar = ResizedImageField(size=[300, 300], crop=['top', 'left'], upload_to=file_upload, blank=True)
+
     class Meta:
         db_table = "user" #db table name
         verbose_name = "User"
