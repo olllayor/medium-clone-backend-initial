@@ -39,4 +39,4 @@ msgstr "Kirish ma'lumotlari yaroqsiz"
 
 #: users/exceptions.py:7
 msgid "OTP verification failed."
-msgstr "OTP verification failed."
+msgstr "OTP tasdiqlash muvaffaqiyatsiz yakunlandi."

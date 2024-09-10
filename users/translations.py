@@ -7,4 +7,4 @@ class CustomUserTranslationOptions(TranslationOptions):
 
 
 
-# translator.register(CustomUser, CustomUserTranslationOptions) register qilish uchun 2-usul**
+# translator.register(CustomUser, CustomUserTranslationOptions)
