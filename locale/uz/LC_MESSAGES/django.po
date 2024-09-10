@@ -19,15 +19,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 #: core/settings.py:224
 msgid "English"
-msgstr ""
+msgstr "English"
 
 #: core/settings.py:225
 msgid "Uzbek"
-msgstr ""
+msgstr "Uzbek"
 
 #: core/settings.py:226
 msgid "Russian"
-msgstr ""
+msgstr "Russian"
 
 #: users/authentications.py:26
 msgid "Access tokeni yaroqsiz"
