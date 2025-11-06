@@ -2,7 +2,7 @@ asgiref==3.8.1
 attrs==24.2.0
 cfgv==3.4.0
 distlib==0.3.8
-django==4.2.14
+django==4.2.26
 django-modeltranslation==0.19.9
 django-redis==5.4.0
 django-resized==1.0.2
